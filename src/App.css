@@ -1,32 +1,114 @@
-.App {
-  text-align: center;
+  /* dark turquise #00CED1
+light sea green #20B2AA
+salmon #FA8072
+dark gray #333333
+teal #008080
+tomato #FF6347 */
+body {
+  background: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.homeDiv {
+  height: 500px; 
+  width: 100vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
+  font-size: 18px; 
+  padding-bottom: 10px; 
+}
+
+.mainNav-none {
+  display: none;
+}
+
+.mainNav li {
+  text-align: center; 
+  margin: 15px auto;
+  list-style-type: none;
+}
+
+.navBar-toggle {
+  position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: #008080;
+    font-size: 24px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+#logo {
+  color: #008080;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.homeP {
+  margin: 2em;
+  font-size: 20px;
+}
+
+.resumeDiv {
+  margin: auto;
+  margin-top: 2em;
+  width: 70vw; 
+  height: auto;
   display: flex;
+  align-items: center;
   flex-direction: column;
+}
+
+.resume {
+  width: 100%;
+  height: auto;
+}
+
+.resumeButton {
+  text-decoration: none;
+  background-color: #FA8072;
+  color: #333333;
+  height: 3em;
+  width: 15em;
+  border-radius: 4px; 
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .navBar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .mainNav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+  .mainNav li {
+    padding: 1em;
+  }
+  #icon {
+    display: none;
   }
 }
