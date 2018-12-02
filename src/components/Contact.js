@@ -9,7 +9,7 @@ const Contact = (props) => {
                 <span className="navBar-toggle">
                     <i onClick={props.navBarResponsive} id="icon" className="fa fa-bars"></i>
                 </span>
-            <p id="logo"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>Bethany Mitch</Link></p>
+            <p id="logo"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>bpm</Link></p>
             <ul className={`${props.toggleMenu ? 'mainNav' : 'mainNav-none' }`}>
                 <li><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</Link></li>
                 <li><Link to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</Link></li>

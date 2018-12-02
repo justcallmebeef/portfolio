@@ -46,13 +46,16 @@ body {
   color: #008080;
   display: inline-block;
   font-size: 22px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 20px;
+  border: #008080 solid;
+  padding: .3em;
 }
 
-.homeP {
+.projectP {
   margin: 2em;
   font-size: 20px;
+  color: #333333;
 }
 
 .resumeDiv {
@@ -83,15 +86,77 @@ body {
   margin-bottom: 2em;
 }
 
-a {
-  text-decoration: none
+.projectsDiv {
+  border-top: #FA8072 10px solid; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-
+.projectHolder {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: .5em;
+  margin-top: 1.5em;
+  width: 220px; 
+  height: 300px;
+  border: #333333 solid;
+  text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
+.circle1 {
+  height: 150px;
+  width: 150px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6fEfqTXuu1Nr8mSn3bxibFeKziXhmJflSANm3EVg62pLUWPc');
+  margin-top: 1em;
+}
+
+.circle2 {
+  height: 150px;
+  width: 150px;
+  background-image: url('http://justcallmebeef-gdelivers.surge.sh/media/restaurant-hero-image.jpg');
+  margin-top: 1em;
+}
+
+.circle3 {
+  height: 150px;
+  width: 150px;
+  background-image: url('http://contembits.com.br/imagens/CapasNoticias/2015/tGCd3CGllRdIAqldDfFt.jpg');
+  margin-top: 1em;
+}
+
+.circle4 {
+  height: 150px;
+  width: 150px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinr-HzwLuVyPh5HTtZHFQ9KnALbBxkAfQgNN7jllZ3qOPhRE4');
+  margin-top: 1em;
+}
+
+.projectTitle {
+  font-size: 18px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.desc {
+  margin: .3em;
+  color: #333333;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .projectsDiv {
+    border-top: #FA8072 10px solid; 
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 770px) {
   .navBar {
       display: flex;
       justify-content: space-between;
@@ -111,4 +176,8 @@ a {
   #icon {
     display: none;
   }
+}
+
+a {
+  text-decoration: none
 }
