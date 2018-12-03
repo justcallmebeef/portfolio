@@ -18,6 +18,9 @@ const Contact = (props) => {
             </ul>
             </nav>
             <div className="contactDiv">
+            <i id="bigIcon" class="fa fa-envelope"></i><p>bethanymitch10@gmail.com</p>
+            <a href="https://github.com/justcallmebeef" target="_blank"><i id="bigIcon" class="fa fa-github"></i></a><a href="https://github.com/justcallmebeef" target="_blank"><p>/justcallmebeef</p></a>
+            <i id="bigIcon" class="fa fa-mobile"></i><p>(715) 688-9727</p>
             </div>
         </Fragment>
     )

@@ -148,12 +148,25 @@ body {
   text-decoration: none;
 }
 
+.contactDiv {
+ display: flex; 
+ flex-wrap: flex; 
+ flex-direction: column;
+ align-items: center;
+ margin-top: 5em;
+}
+
+#bigIcon {
+  font-size: 50px;
+  color: #333333;
+}
+
+p {
+  color: #333333;
+}
+
 @media only screen and (max-width: 770px) {
-  .projectsDiv {
-    border-top: #FA8072 10px solid; 
-    display: flex;
-    flex-direction: column;
-  }
+
 }
 
 @media only screen and (min-width: 770px) {

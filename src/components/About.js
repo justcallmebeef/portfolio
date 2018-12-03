@@ -18,6 +18,12 @@ const About = (props) => {
             </ul>
             </nav>
             <div className="aboutDiv">
+            <p className="projectP">
+                Hello again! Sorry to report this page is still a work in progress.<br></br>
+                Please come back later or visit the Contact page and reach out.<br></br>
+                <br></br>
+                Have a great day!
+            </p>
             </div>
         </Fragment>
     )
