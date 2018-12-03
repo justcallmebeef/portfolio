@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react' 
 import { Link } from 'react-router-dom'
-import resume from '/Users/bethanymitch/portfolio-site/portfolio2/src/resume.jpg'
+import resume from './resume.jpg'
 
 
 const Resume = (props) => {
