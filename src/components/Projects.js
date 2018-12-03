@@ -24,28 +24,28 @@ const Projects = (props) => {
             </p>
             </div>
             <div className="projectsDiv">
-                <a href="https://github.com/justcallmebeef/travel-wish-list" target="_blank">
+                <a href="https://github.com/justcallmebeef/travel-wish-list" rel="noopener noreferrer" target="_blank">
                     <div className="projectHolder">
                         <div className="circle1"></div>
                         <p className="projectTitle">Travel Wish List</p>
                         <p className="desc">A website that allows users to create, udpate, and delete to a travel wish list.</p>
                     </div>
                 </a>
-                <a href="https://github.com/justcallmebeef/galvanize-eats-public" target="_blank">
+                <a href="https://github.com/justcallmebeef/galvanize-eats-public" rel="noopener noreferrer" target="_blank">
                     <div className="projectHolder">
                         <div className="circle2"></div>
                         <p className="projectTitle">Galvanize Eats</p>
                         <p className="desc">The order page allows the user to pick items from the menu to deliver an order. </p>
                     </div>
                 </a>
-                <a href="https://github.com/justcallmebeef/react-inbox" target="_blank">
+                <a href="https://github.com/justcallmebeef/react-inbox" rel="noopener noreferrer" target="_blank">
                     <div className="projectHolder">
                         <div className="circle3"></div>
                         <p className="projectTitle">React Inbox</p>
                         <p className="desc">An inbox that allows the user to update messages, add labels, delete and compose new messages.</p>
                     </div>
                 </a>
-                <a href="https://github.com/justcallmebeef/vue-bookstore" target="_blank">
+                <a href="https://github.com/justcallmebeef/vue-bookstore" rel="noopener noreferrer" target="_blank">
                     <div className="projectHolder">
                         <div className="circle4"></div>
                         <p className="projectTitle">Vue Bookstore</p>
