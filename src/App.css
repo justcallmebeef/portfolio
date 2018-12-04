@@ -172,13 +172,26 @@ body {
  margin-top: 5em;
 }
 
+#bigIcon:hover {
+  color: #FA8072;
+}
+
 #bigIcon {
+  font-size: 50px;
+  color: #333333;
+}
+
+#bigIconPhone {
   font-size: 50px;
   color: #333333;
 }
 
 p {
   color: #333333;
+}
+
+ul li:hover{
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 770px) {
