@@ -86,6 +86,16 @@ body {
   margin-bottom: 2em;
 }
 
+.resumeButton:hover {
+  background-color: #008080;
+  color: whitesmoke;
+}
+
+#resumeIcon {
+  padding-left: .5em;
+  color: #333333;
+}
+
 .projectsDiv {
   border-top: #FA8072 10px solid; 
   display: flex;
@@ -106,6 +116,12 @@ body {
   height: 300px;
   border: #333333 solid;
   text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  transition: all .2s ease-in-out;
+}
+
+.projectHolder:hover {
+  transform: scale(1.1)
 }
 
 .circle1 {
