@@ -115,7 +115,7 @@ body {
   margin-top: 1.5em;
   width: 220px; 
   height: 300px;
-  border: #333333 solid 2px;
+  border: #333333 solid 1.2px;
   text-decoration: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   transition: all .2s ease-in-out;

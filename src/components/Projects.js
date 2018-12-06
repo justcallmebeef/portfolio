@@ -22,6 +22,10 @@ const Projects = (props) => {
                 This is my portfolio site.<br></br>
                 Welcome.
             </p>
+            <p className="projectP">
+                Below you will find a few of my projects.<br></br> 
+                If you care to venture further, click through to see the code.
+            </p>
             </div>
             <div className="projectsDiv">
                 <a href="https://github.com/justcallmebeef/travel-wish-list" rel="noopener noreferrer" target="_blank">
