@@ -7,6 +7,7 @@ tomato #FF6347 */
 body {
   background: whitesmoke;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  zoom: 125%
 }
 
 .homeDiv {
@@ -196,7 +197,7 @@ ul li:hover{
 }
 
 #icon {
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 15px;
   margin-left: 20px;
 }
@@ -236,6 +237,9 @@ ul li:hover{
     margin: 15px;
     margin-right: 2.5em;
   }
+  #bigScreen {
+    display: none; 
+  }
 }
 
 @media only screen and (min-width: 770px) {
@@ -258,6 +262,9 @@ ul li:hover{
   }
   #icon {
     display: none;
+  }
+  #littleScreen {
+    display: none; 
   }
 }
 

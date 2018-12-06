@@ -7,10 +7,19 @@ import { Link } from 'react-router-dom'
 const About = (props) => {
     return (
         <Fragment>
-            <nav className="navBar">
+            <nav id="littleScreen" className="navBar">
                 <span className="navBar-toggle">
                     <i onClick={props.navBarResponsive} id="icon" className="fa fa-bars"></i>
                 </span>
+            <p id="logo"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>bpm</Link></p>
+            <ul className={`${props.toggleMenu ? 'mainNav' : 'mainNav-none' }`}>
+                <li><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</Link></li>
+                <li><Link to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</Link></li>
+                <li className="active"><Link to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</Link></li>
+                <li><Link to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</Link></li>
+            </ul>
+            </nav>
+            <nav id="bigScreen" className="navBar">
             <p id="logo"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>bpm</Link></p>
             <ul className={`${props.toggleMenu ? 'mainNav' : 'mainNav-none' }`}>
                 <li><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</Link></li>
@@ -23,7 +32,7 @@ const About = (props) => {
             </div>
             <div className="aboutDiv">
                 <section className="section">
-                <p>Quick Fun Facts: 
+                <p>About Bethany:
                 <ul>
                     <li>My nickname is Beef</li>
                     <li>Born and raised in Wisconsin - a true cheesehead at heart</li>
