@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react' 
-import { Link } from 'react-router-dom'
+import NavDesktop from './NavDesktop'
+import NavMobile from './NavMobile'
 
 const Projects = (props) => {
     return (
         <Fragment>
-            <nav id="littleScreen" className="navBar">
+            {/* <nav id="littleScreen" className="navBar">
                 <span className="navBar-toggle">
                     <i onClick={props.navBarResponsive} id="icon" className="fa fa-bars"></i>
                 </span>
@@ -24,7 +25,9 @@ const Projects = (props) => {
                 <li><Link to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</Link></li>
                 <li><Link to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</Link></li>
             </ul>
-            </nav>
+            </nav> */}
+            <NavDesktop />
+            <NavMobile toggleMenu={props.toggleMenu} navBarResponsive={props.navBarResponsive} />
             <div>
             <p className="projectP">
                 Hello human! I'm Bethany - a Full-Stack Web Developer.<br></br>

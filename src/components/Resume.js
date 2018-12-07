@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react' 
-import { Link } from 'react-router-dom'
 import resume from './resume.jpg'
+import NavDesktop from './NavDesktop'
+import NavMobile from './NavMobile'
 
 
 const Resume = (props) => {
     return (
         <Fragment>
-            <nav id="littleScreen" className="navBar">
+            {/* <nav id="littleScreen" className="navBar">
                 <span className="navBar-toggle">
                     <i onClick={props.navBarResponsive} id="icon" className="fa fa-bars"></i>
                 </span>
@@ -26,7 +27,9 @@ const Resume = (props) => {
                 <li><Link to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</Link></li>
                 <li><Link to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</Link></li>
             </ul>
-            </nav>
+            </nav> */}
+            <NavDesktop />
+            <NavMobile toggleMenu={props.toggleMenu} navBarResponsive={props.navBarResponsive} />
             <div className="resumeDiv">
             <a href="https://docs.google.com/document/d/16n3BzpKDFfn1SKDxJNaQt1lctZnLB_1tllDK-_vL89c/export?format=pdf">
                     <div className="resumeButton">Download Bethany's Resume

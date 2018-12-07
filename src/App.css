@@ -32,6 +32,10 @@ body {
   list-style-type: none;
 }
 
+.mainNav li .selected {
+  text-decoration:underline !important;
+}
+
 .navBar-toggle {
   position: absolute;
     top: 10px;

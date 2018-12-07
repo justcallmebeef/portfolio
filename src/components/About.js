@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react' 
-import { Link } from 'react-router-dom'
+import NavDesktop from './NavDesktop'
+import NavMobile from './NavMobile'
 
 
 // photo link: https://images.unsplash.com/photo-1469122312224-c5846569feb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1152&q=80
@@ -7,7 +8,7 @@ import { Link } from 'react-router-dom'
 const About = (props) => {
     return (
         <Fragment>
-            <nav id="littleScreen" className="navBar">
+            {/* <nav id="littleScreen" className="navBar">
                 <span className="navBar-toggle">
                     <i onClick={props.navBarResponsive} id="icon" className="fa fa-bars"></i>
                 </span>
@@ -27,7 +28,9 @@ const About = (props) => {
                 <li className="active"><Link to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</Link></li>
                 <li><Link to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</Link></li>
             </ul>
-            </nav>
+            </nav> */}
+            <NavDesktop />
+            <NavMobile toggleMenu={props.toggleMenu} navBarResponsive={props.navBarResponsive} />
             <div className="parallax">
             </div>
             <div className="aboutDiv">
