@@ -59,6 +59,15 @@ body {
   padding: .3em;
 }
 
+.logoName {
+  margin: 0; 
+  color: #008080;
+  padding: .5em;
+  opacity: 0;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+}
+
 .projectP {
   margin: 2em;
   font-size: 20px;
@@ -244,6 +253,10 @@ ul li:hover{
   #bigScreen {
     display: none; 
   }
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 770px) {
@@ -253,6 +266,11 @@ ul li:hover{
       padding-bottom: 0;
       height: 70px;
       align-items: center;
+  }
+  .logoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .mainNav {
       display: flex;
@@ -274,4 +292,10 @@ ul li:hover{
 
 a {
   text-decoration: none
+}
+
+#logo:hover + .logoName {
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+  opacity: 1; 
 }
