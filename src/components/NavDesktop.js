@@ -13,10 +13,10 @@ const NavDesktop = () => {
             </div>
             <div>
             <ul className="mainNav">
-                <li><NavLink exact={true} activeClassName="selected" to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</NavLink></li>
-                <li><NavLink activeClassName="selected" to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</NavLink></li>
-                <li><NavLink activeClassName="selected" to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</NavLink></li>
-                <li><NavLink activeClassName="selected" to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</NavLink></li>
+                <li className="navLink"><NavLink exact={true} activeClassName="selected" to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</NavLink></li>
+                <li className="navLink"><NavLink activeClassName="selected" to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</NavLink></li>
+                <li className="navLink"><NavLink activeClassName="selected" to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</NavLink></li>
+                <li className="navLink"><NavLink activeClassName="selected" to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</NavLink></li>
             </ul>
             </div>
         </nav>

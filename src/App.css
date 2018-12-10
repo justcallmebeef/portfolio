@@ -205,7 +205,7 @@ p {
   color: #333333;
 }
 
-ul li:hover{
+.navLink:hover{
   transform: scale(1.2);
 }
 
@@ -256,6 +256,14 @@ ul li:hover{
   .logoContainer {
     display: flex;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    border: none; 
+    padding: 1em;
+    font-size: 17px;
   }
 }
 
