@@ -220,7 +220,7 @@ p {
   background-image: url("https://images.unsplash.com/photo-1472235477785-4a74ac750010?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
 
   /* Set a specific height */
-  height: 500px; 
+  height: 300px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
