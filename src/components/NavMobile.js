@@ -13,7 +13,8 @@ const NavMobile = (props) => {
                     <Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>bpm</Link>
                 </p>
                 <p className="logoName">bethany p. mitch</p>
-            </div>            <ul className={`${props.toggleMenu ? 'mainNav-none' : 'mainNav' }`}>
+            </div>            
+            <ul className={`${props.toggleMenu ? 'mainNav-none' : 'mainNav' }`}>
                 <li className="navLink"><NavLink exact={true} activeClassName="selected" to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</NavLink></li>
                 <li className="navLink"><NavLink activeClassName="selected" to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</NavLink></li>
                 <li className="navLink"><NavLink activeClassName="selected" to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</NavLink></li>
