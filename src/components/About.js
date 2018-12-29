@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react' 
 import NavDesktop from './NavDesktop'
 import NavMobile from './NavMobile'
+import Footer from './Footer'
 
 const About = (props) => {
     return (
@@ -32,6 +33,7 @@ const About = (props) => {
                 </p>
                 </section>
             </div>
+            <Footer />
         </Fragment>
     )
 }

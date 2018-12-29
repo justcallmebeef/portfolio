@@ -1,31 +1,11 @@
 import React, { Fragment } from 'react' 
 import NavDesktop from './NavDesktop'
 import NavMobile from './NavMobile'
+import Footer from './Footer'
 
 const Projects = (props) => {
     return (
         <Fragment>
-            {/* <nav id="littleScreen" className="navBar">
-                <span className="navBar-toggle">
-                    <i onClick={props.navBarResponsive} id="icon" className="fa fa-bars"></i>
-                </span>
-            <p id="logo"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>bpm</Link></p>
-            <ul className={`${props.toggleMenu ? 'mainNav-none' : 'mainNav' }`}>
-                <li className="active"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</Link></li>
-                <li><Link to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</Link></li>
-                <li><Link to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</Link></li>
-                <li><Link to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</Link></li>
-            </ul>
-            </nav>
-            <nav id="bigScreen" className="navBar">
-            <p id="logo"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>bpm</Link></p>
-            <ul className={`${props.toggleMenu ? 'mainNav' : 'mainNav-none' }`}>
-                <li className="active"><Link to='/' style={{ textDecoration: 'none', color: '#008080' }}>Projects</Link></li>
-                <li><Link to='/resume' style={{ textDecoration: 'none', color: '#008080' }}>Resume</Link></li>
-                <li><Link to='/about' style={{ textDecoration: 'none', color: '#008080' }}>About</Link></li>
-                <li><Link to='/contact' style={{ textDecoration: 'none', color: '#008080' }}>Contact</Link></li>
-            </ul>
-            </nav> */}
             <NavDesktop />
             <NavMobile toggleMenu={props.toggleMenu} navBarResponsive={props.navBarResponsive} />
             <div>
@@ -69,6 +49,7 @@ const Projects = (props) => {
                     </div>
                 </a>
             </div>
+            <Footer />
         </Fragment>
     )
 }

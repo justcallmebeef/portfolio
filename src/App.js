@@ -30,17 +30,13 @@ navBarResponsive = () => {
       <Fragment>
       <div className="App">
         <Route path="/" exact render={() => (<Projects toggleMenu={this.state.toggleMenu} navBarResponsive={this.navBarResponsive} />
-        )}
-        />
+        )}/>
         <Route path="/resume" render={() => (<Resume toggleMenu={this.state.toggleMenu} navBarResponsive={this.navBarResponsive} />
-        )}
-        />
+        )}/>
         <Route path="/about" render={() => (<About toggleMenu={this.state.toggleMenu} navBarResponsive={this.navBarResponsive} />
-        )}
-        />
+        )}/>
         <Route path="/contact" render={() => (<Contact toggleMenu={this.state.toggleMenu} navBarResponsive={this.navBarResponsive} />
-        )}
-        />
+        )}/>
       </div>
       </Fragment>
     );
