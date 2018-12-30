@@ -141,28 +141,28 @@ body {
   transform: scale(1.1)
 }
 
-.circle1 {
+.project1 {
   height: 150px;
   width: 150px;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6fEfqTXuu1Nr8mSn3bxibFeKziXhmJflSANm3EVg62pLUWPc');
   margin-top: 1em;
 }
 
-.circle2 {
+.project2 {
   height: 150px;
   width: 150px;
   background-image: url('http://justcallmebeef-gdelivers.surge.sh/media/restaurant-hero-image.jpg');
   margin-top: 1em;
 }
 
-.circle3 {
+.project3 {
   height: 150px;
   width: 150px;
   background-image: url('http://contembits.com.br/imagens/CapasNoticias/2015/tGCd3CGllRdIAqldDfFt.jpg');
   margin-top: 1em;
 }
 
-.circle4 {
+.project4 {
   height: 150px;
   width: 150px;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinr-HzwLuVyPh5HTtZHFQ9KnALbBxkAfQgNN7jllZ3qOPhRE4');
@@ -176,9 +176,10 @@ body {
 }
 
 .desc {
-  margin: .3em;
+  margin-top: -.5em;
   color: #333333;
   text-decoration: none;
+  width: 150px; 
 }
 
 .contactDiv {
