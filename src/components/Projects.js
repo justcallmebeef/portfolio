@@ -29,11 +29,11 @@ const Projects = (props) => {
                             <p className="desc">A website that allows users to create, udpate, and delete to a travel wish list.</p>
                         </div>
                     </a>
-                    <a href="https://github.com/justcallmebeef/galvanize-eats-public" rel="noopener noreferrer" target="_blank">
+                    <a href="https://github.com/justcallmebeef/fateFrontEnd" rel="noopener noreferrer" target="_blank">
                         <div className="projectHolder">
                             <div className="project2"></div>
-                            <p className="projectTitle">Galvanize Eats</p>
-                            <p className="desc">The order page allows the user to pick items from the menu to deliver an order. </p>
+                            <p className="projectTitle">Fate</p>
+                            <p className="desc">Allows users to rate each other and gives real-time feedback in the form of charts. </p>
                         </div>
                     </a>
                     <a href="https://github.com/justcallmebeef/react-inbox" rel="noopener noreferrer" target="_blank">
